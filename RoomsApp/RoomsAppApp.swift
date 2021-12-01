@@ -11,7 +11,8 @@ import SwiftUI
 struct RoomsAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            let viewContext = CoreDataManager.shared.persistentContainer.viewContext
+            ContentView().environment(\.managedObjectContext, viewContext)
         }
     }
 }

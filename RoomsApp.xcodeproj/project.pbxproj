@@ -11,6 +11,11 @@
 		8D8BB8302756F1EE00B537EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8BB82F2756F1EE00B537EB /* ContentView.swift */; };
 		8D8BB8322756F1EF00B537EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D8BB8312756F1EF00B537EB /* Assets.xcassets */; };
 		8D8BB8352756F1EF00B537EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D8BB8342756F1EF00B537EB /* Preview Assets.xcassets */; };
+		8D8BB83D2756F2D700B537EB /* ColorSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8BB83C2756F2D700B537EB /* ColorSelectionView.swift */; };
+		8D8BB8402756F40200B537EB /* RoomModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8D8BB83E2756F40200B537EB /* RoomModel.xcdatamodeld */; };
+		8D8BB8422756F4AD00B537EB /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8BB8412756F4AD00B537EB /* Room.swift */; };
+		8D8BB8442756F51F00B537EB /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8BB8432756F51F00B537EB /* CoreDataManager.swift */; };
+		8D8BB8462756F60C00B537EB /* NSColorTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8BB8452756F60C00B537EB /* NSColorTransformer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		8D8BB8312756F1EF00B537EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D8BB8342756F1EF00B537EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8D8BB8362756F1EF00B537EB /* RoomsApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RoomsApp.entitlements; sourceTree = "<group>"; };
+		8D8BB83C2756F2D700B537EB /* ColorSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSelectionView.swift; sourceTree = "<group>"; };
+		8D8BB83F2756F40200B537EB /* RoomModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RoomModel.xcdatamodel; sourceTree = "<group>"; };
+		8D8BB8412756F4AD00B537EB /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		8D8BB8432756F51F00B537EB /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		8D8BB8452756F60C00B537EB /* NSColorTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSColorTransformer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +67,11 @@
 				8D8BB8312756F1EF00B537EB /* Assets.xcassets */,
 				8D8BB8362756F1EF00B537EB /* RoomsApp.entitlements */,
 				8D8BB8332756F1EF00B537EB /* Preview Content */,
+				8D8BB83C2756F2D700B537EB /* ColorSelectionView.swift */,
+				8D8BB83E2756F40200B537EB /* RoomModel.xcdatamodeld */,
+				8D8BB8412756F4AD00B537EB /* Room.swift */,
+				8D8BB8432756F51F00B537EB /* CoreDataManager.swift */,
+				8D8BB8452756F60C00B537EB /* NSColorTransformer.swift */,
 			);
 			path = RoomsApp;
 			sourceTree = "<group>";
@@ -139,8 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D8BB8442756F51F00B537EB /* CoreDataManager.swift in Sources */,
+				8D8BB8402756F40200B537EB /* RoomModel.xcdatamodeld in Sources */,
+				8D8BB83D2756F2D700B537EB /* ColorSelectionView.swift in Sources */,
 				8D8BB8302756F1EE00B537EB /* ContentView.swift in Sources */,
 				8D8BB82E2756F1EE00B537EB /* RoomsAppApp.swift in Sources */,
+				8D8BB8422756F4AD00B537EB /* Room.swift in Sources */,
+				8D8BB8462756F60C00B537EB /* NSColorTransformer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +358,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8D8BB83E2756F40200B537EB /* RoomModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8D8BB83F2756F40200B537EB /* RoomModel.xcdatamodel */,
+			);
+			currentVersion = 8D8BB83F2756F40200B537EB /* RoomModel.xcdatamodel */;
+			path = RoomModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 8D8BB8222756F1EE00B537EB /* Project object */;
 }
